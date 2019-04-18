@@ -15,7 +15,7 @@ warn () {
 }
 
 # stupid texting 
-textingAF () {
+textingAF() {
     echo "$(tput bold; tput setaf 2)[+] ${*}$(tput sgr0)"
 }
 
